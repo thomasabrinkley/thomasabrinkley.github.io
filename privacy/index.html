@@ -22,7 +22,7 @@
 
     <main class="wrap">
       <h1>Clade Privacy Policy</h1>
-      <p class="updated">Last updated November 19, 2026</p>
+      <p class="updated">Last updated November 27, 2026</p>
       <p>
         This policy explains what the Clade app collects, why, who it is shared with, and how you
         can delete it. Clade is made by OTB Industries, LLC ("OTB", "we", "us"), a New York company.
@@ -37,6 +37,14 @@
             Quizzes are written and graded by a third-party AI service. Clade sends it paper text
             and your written answers only after you agree, and you can turn this off any time.
           </li>
+          <li>
+            Questions you ask the Ask AI assistant go to the same AI service, also only after you
+            agree.
+          </li>
+          <li>
+            Messages you exchange with a paper's authors through Ask the authors are private to you
+            and that paper's authors. Authors prove who they are by linking their ORCID iD.
+          </li>
           <li>You can delete your account and everything tied to it from Profile in the app.</li>
         </ul>
       </div>
@@ -44,10 +52,12 @@
       <h2>What we collect</h2>
       <h3>Your account</h3>
       <p>
-        You sign in with Apple. Apple gives us a stable identifier for your account and, if you
-        choose to share them, your name and email address. If you choose "Hide My Email", we get an
-        Apple relay address instead of your real one. We also keep the date you joined, your
-        membership or trial status, and whether you have agreed to AI quizzes.
+        You sign in with Apple or Google. Either one gives us a stable identifier for your account,
+        and your name and email address. With Apple you can choose not to share your name, and if
+        you choose "Hide My Email", we get an Apple relay address instead of your real one. With
+        Google we keep your email only if Google has verified it. An Apple account and a Google
+        account are separate Clade accounts, even with the same email. We also keep the date you joined, your
+        membership or trial status, and whether you have agreed to Clade's AI features.
       </p>
       <h3>What you do in Clade</h3>
       <ul>
@@ -61,10 +71,40 @@
       </ul>
       <h3>PDFs you upload</h3>
       <p>
-        When you upload a paper's PDF to get a quiz on it, we pull out its text to write the quiz and
-        then discard the PDF. We don't keep the file. The quiz written from it is saved under a
-        private code that only your library holds, so only you can open it. Start over and Delete
-        account both remove it.
+        When you upload a paper's PDF, we pull out its text and then discard the PDF. We don't keep
+        the file. A quiz written from it is saved under a private code that only your library
+        holds, so only you can open it. We also keep the text privately for you, so the Ask AI
+        assistant can answer your questions from it; other readers never see it. Deleting your
+        account removes both.
+      </p>
+      <h3>Questions you ask the AI assistant</h3>
+      <p>
+        Ask AI answers your questions about a paper. Each time you ask, Clade sends the AI service
+        your question, your earlier messages in that chat, and the paper's text. It works only after
+        you agree on the AI consent card, and the AI service does not receive your name, email,
+        account or library. We keep your Ask AI chats so you can pick them up later, and only you
+        can see them. Clear chat deletes one, and deleting your account deletes them all.
+      </p>
+      <h3>Messages with paper authors</h3>
+      <p>
+        Ask the authors lets you send a private question about a paper to its authors, and lets
+        authors reply. We store the chat, the paper it is about, and the name each person shows.
+        You can ask anonymously, and then authors see "A Clade reader" instead of your name. A chat
+        is visible only to you and to the paper's authors who have linked their ORCID iD on Clade;
+        other readers never see it. These chats are not end-to-end encrypted: we can read a message
+        when it is reported to us, or when we need to for safety, security or the law.
+      </p>
+      <p>
+        To keep chats civil, every message passes an automatic word filter. If the sender has agreed
+        to Clade's AI features, the message also gets a quick automatic check by the AI service for
+        harassment, threats and spam. We also keep the reports and blocks you make.
+      </p>
+      <h3>Your ORCID iD, if you're an author</h3>
+      <p>
+        Authors link their ORCID iD by signing in at orcid.org. ORCID sends us only your iD and the
+        name on your ORCID record; we never see your ORCID password. We use them to show you
+        questions about papers that list you as an author, and to show your name on your replies.
+        You can unlink your iD any time.
       </p>
       <h3>Feedback emails</h3>
       <p>
@@ -88,7 +128,8 @@
       <h2>How we use it</h2>
       <ul>
         <li>To run your account and keep your library and progress in sync across your devices.</li>
-        <li>To suggest papers and write and grade quizzes.</li>
+        <li>To suggest papers, write and grade quizzes, and answer your questions with Ask AI.</li>
+        <li>To deliver messages between readers and authors, and to keep those chats safe.</li>
         <li>To manage your trial or membership.</li>
         <li>To answer you when you contact us, and to fix problems and improve Clade.</li>
         <li>To keep Clade secure and to meet legal obligations.</li>
@@ -101,12 +142,22 @@
       </p>
       <ul>
         <li>
-          <strong>A third-party AI service</strong> writes and grades quizzes. Before your first
-          quiz, Clade asks for your permission to send it the text of each paper you take a quiz on
-          (including PDFs you upload) and your written answers. It does not receive your name,
-          email, Apple ID, library or progress. We use it under business terms that don't let it
+          <strong>A third-party AI service</strong>, currently Anthropic's Claude, writes and grades
+          quizzes and answers Ask AI questions. Before your first quiz or question, Clade asks for
+          your permission to send it the text of each paper you take a quiz on or ask about
+          (including PDFs you upload), your written answers, your questions to the assistant, and
+          the messages you send to authors, for a quick safety check. It does not receive your name,
+          email, Apple or Google account, library or progress. We use it under business terms that don't let it
           train its models on what we send. You can withdraw permission any time on Profile, under
-          AI quizzes.
+          AI quizzes and Ask AI.
+        </li>
+        <li>
+          <strong>ORCID</strong> confirms an author's iD when they link it. Clade sends ORCID
+          nothing about readers.
+        </li>
+        <li>
+          <strong>Other Clade users</strong> see only what you send them in Ask the authors: your
+          messages, and your name unless you ask anonymously.
         </li>
         <li>
           <strong>Hosting and database providers</strong> run our servers and store the data
@@ -117,8 +168,12 @@
           it receives basic technical information such as your IP address and device type.
         </li>
         <li>
-          <strong>Apple</strong> handles sign-in, and will handle payments once memberships are on
-          sale. We never see your payment card.
+          <strong>Apple</strong> handles Sign in with Apple, and will handle payments once
+          memberships are on sale. We never see your payment card.
+        </li>
+        <li>
+          <strong>Google</strong> handles Sign in with Google. Clade asks Google only for your
+          account identifier, name and email, and never sees your Google password.
         </li>
       </ul>
       <p>
@@ -135,19 +190,33 @@
       <p>
         We keep your account data until you delete your account. "Start over" on Profile clears your
         library, progress and private quizzes but keeps your account. Deleting your account
-        removes your profile, library, ratings, quiz results, XP, streak, private quizzes and saved
-        suggestions from our database right away, and our providers' backup copies expire within
-        30 days. Sign-in sessions
+        removes your profile, library, ratings, quiz results, XP, streak, private quizzes, saved
+        suggestions, Ask AI chats and the author chats you started from our database right away.
+        Replies you sent as an author stay in the readers' chats they answer, without a link to your
+        account. Our providers' backup copies expire within 30 days. Sign-in sessions
         expire on their own. Feedback emails are kept until they are no longer needed.
       </p>
 
       <h2>Your choices and rights</h2>
       <ul>
         <li><strong>Delete your account:</strong> Profile, then Delete account.</li>
-        <li><strong>Turn off AI quizzes:</strong> Profile, then AI quizzes, then Turn off.</li>
+        <li>
+          <strong>Turn off AI features:</strong> Profile, then AI quizzes and Ask AI, then Turn off. This stops
+          quizzes and Ask AI from sending anything to the AI service.
+        </li>
+        <li><strong>Clear an Ask AI chat:</strong> open the chat, then Clear chat.</li>
+        <li>
+          <strong>Report or block someone:</strong> under any message from someone else in Ask the
+          authors.
+        </li>
+        <li><strong>Unlink your ORCID iD:</strong> Profile, then Unlink ORCID.</li>
         <li>
           <strong>Stop Sign in with Apple:</strong> on your iPhone, Settings, your name, Sign in
           with Apple, Clade.
+        </li>
+        <li>
+          <strong>Stop Sign in with Google:</strong> at myaccount.google.com, Security, Your
+          connections to third-party apps and services, Clade.
         </li>
         <li>
           <strong>Get a copy or a correction:</strong> email us and we'll send a copy of your data
@@ -159,7 +228,7 @@
         have further rights, such as to object to or restrict how we use your data, or to complain
         to your local data protection authority. Email us to use any of them; we'll answer within
         30 days and won't treat you differently for asking. Where EU or UK law applies, we rely on
-        our contract with you to run your account, on your consent for AI quizzes, and on our
+        our contract with you to run your account, on your consent for AI features, and on our
         legitimate interest in keeping Clade secure and working.
       </p>
 
